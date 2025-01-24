@@ -8,7 +8,7 @@ import pickle
 with open('model.pkl', 'rb') as file:
     model = pickle.load(file)
 
-with open('scaler.pkl', 'rb') as file:
+with open('transformer.pkl', 'rb') as file:
     scaler = pickle.load(file)
 
 with open('pca.pkl', 'rb') as file:
